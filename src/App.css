@@ -132,17 +132,42 @@ input#searchbox {
   width: 70%;
   text-align: center;
 }
-
-@media only screen and (max-width: 600px) {
+#arrow{
+  display: none;
+}
+@media only screen and (max-width: 1000px) {
  h2.f1 {
     font-size: 20px;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 0;
   }
   input#searchbox{
-    width: 90%;
+    width: 97%;
   }
   .robotcontain{
     margin-top: 175px;
+  }
+  .Title{
+    width:450px;
+  }
+  .backBTN{
+    content: "";
+  }
+  #arrow{
+    display: block;
+  }
+  #return{
+    display: none;
+  }
+  .arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
   }
 }
