@@ -15,7 +15,7 @@ class Restaurants extends Component {
     }
     componentDidMount = async (props) =>{
         try {
-            const response = await fetch('http://kenes-tours.herokuapp.com/restaurants')
+            const response = await fetch('https://kenes-tours.herokuapp.com/restaurants')
             const data = await response.json();
             // console.log(data)
             this.props.myHandleArray(data)
