@@ -29,8 +29,6 @@ class Details extends Component {
                 <div className='f3'>{this.props.SelectedName.city}</div>
                 <div className='f3'>{this.props.SelectedName.email}</div>
                 <div className='f3'>{this.props.SelectedName.about}</div>
-                <div className='f3'>{this.props.SelectedName.kosher}</div>
-                <div className='f3'>{this.props.SelectedName.kosher}</div>
                 <a className="f2" href={url} target="_blank">Get Directions</a>
                 
             </div>

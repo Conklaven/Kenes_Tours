@@ -132,3 +132,17 @@ input#searchbox {
   width: 70%;
   text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+ h2.f1 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  input#searchbox{
+    width: 90%;
+  }
+  .robotcontain{
+    margin-top: 175px;
+  }
+}
