@@ -137,21 +137,21 @@ input#searchbox {
 }
 @media only screen and (max-width: 1000px) {
  h2.f1 {
-    font-size: 20px;
-    margin-top: 20px;
-    margin-left: 0;
+    display: none;
   }
   input#searchbox{
-    width: 97%;
+    width: 40%;
   }
   .robotcontain{
     margin-top: 175px;
   }
   .Title{
-    width:450px;
+    display: block;
   }
   .backBTN{
     content: "";
+    position:absolute;
+    right: 0;
   }
   #arrow{
     display: block;
@@ -169,5 +169,12 @@ input#searchbox {
   .left {
     transform: rotate(135deg);
     -webkit-transform: rotate(135deg);
+  }
+  .search{
+    float:left;
+    margin-left: -50px;
+  }
+  label{
+    font-size: 22px;
   }
 }
